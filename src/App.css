@@ -1,0 +1,52 @@
+*{
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+html,body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.contenedor-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2%;
+
+}
+
+.boton-confirmar-registro{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db; /* Color del borde */
+  color: #fff; /* Color del texto */
+  background-color: #3498db; /* Color de fondo */
+  border-radius: 5px; /* Borde redondeado */
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boton-confirmar-registro:hover{
+  background-color: #fff; /* Color de fondo al pasar el mouse */
+  color: #3498db; /* Color del texto al pasar el mouse */
+}
+.boton-registro{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.recaptcha1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

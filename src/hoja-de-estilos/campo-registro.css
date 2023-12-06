@@ -1,0 +1,45 @@
+/* Estilos para el contenedor y sus elementos internos */
+.contenedor-principal-campos {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    margin: auto;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Agrega un margen hacia abajo de 20px */
+  }
+  
+  /* Estilos para el label */
+  .contenedor-principal-campos label {
+    display: block;
+    margin-bottom: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white; /* Cambiado a blanco */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center; /* Justifica el texto */
+  }
+  
+  /* Estilos para el input */
+  .contenedor-principal-campos input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Transición suave para el cambio de color del borde */
+  }
+  
+  /* Estilo adicional para resaltar cuando se enfoca el input */
+  .contenedor-principal-campos input:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando el input está enfocado */
+  }
+  
+  /* Cambio de color de fondo cuando se pasa el ratón sobre el contenedor */
+  .contenedor-principal-campos:hover {
+    background-color: #e0e0e0;
+  }
+  
